@@ -74,7 +74,7 @@ function summon() {
       videoSrc = epicVideos[Math.floor(Math.random() * epicVideos.length)];
       result = "Epic";
       epicPity = 0;
-    } else if (roll < 36) {
+    } else if (roll < 26) {
       videoSrc = rareVideos[Math.floor(Math.random() * rareVideos.length)];
       result = "Rare";
     } else {
