@@ -92,12 +92,13 @@ function summon() {
   const video = document.getElementById("summonVideo");
 
   video.src = videoSrc;
-  video.load();
-  video.play().catch(err => console.error("Video play failed:", err));
- 
 video.playbackRate = 1.3;
 
+video.oncanplay = () => {
   overlay.style.display = "flex";
+  video.play().catch(err => console.error("Video play failed:", err));
+};
+
 }
 
 

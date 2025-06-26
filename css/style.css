@@ -72,15 +72,17 @@ html, body {
 
 .close-button {
   position: absolute;
-  top: 20px;
+  top: 30px;
   right: 30px;
   font-size: 2rem;
-  background: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  background: rgb(255, 255, 255);
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 5px 15px;
   z-index: 101;
+  border: 2px solid rgb(81, 0, 128); 
 }
 
 .pity-counter {
