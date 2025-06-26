@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishing Room Gacha!</title>
+    <link rel="icon" type="image/png" href="images/currency.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <img src="images/banner.jpg" alt="Banner Image" class="fullscreen-image" />
+
+    <button class="summon-button" onclick="summon()">
+        Summon 1x
+        <img src="images/currency.png" alt="Currency Icon" class="currency-icon" />
+    </button>
+
+    <div class="video-overlay" id="videoOverlay">
+        <video id="summonVideo" autoplay muted></video>
+        <button class="close-button" onclick="closeVideo()">x</button>
+    </div>
+
+    <div class="pity-counter" id="pityCounter">
+        <img src="images/currency.png" alt="Currency Icon" class="currency-icon-small" />
+        
+        <span id="pityText">Pity: 0 / 100 </span>
+    </div>
+
+    </div>
+
+
+
+    <script src="js.js"></script>
+</body>
+</html>
